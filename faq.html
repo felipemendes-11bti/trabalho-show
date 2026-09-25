@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PTQFA FEST — FAQ e Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html">PTQFA <span>FEST</span></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="lineup.html">Line-up</a></li>
+        <li><a href="ingressos.html">Ingressos</a></li>
+        <li><a href="informacoes.html">Informações</a></li>
+        <li><a href="faq.html" class="active">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">Perguntas Frequentes (FAQ)</h1>
+    <p style="color: var(--text-muted); margin-bottom: 2rem;">Tire as suas dúvidas sobre o evento ou entre em contacto com a nossa equipa.</p>
+
+    <!-- Seção de Perguntas e Respostas (Mínimo 6) -->
+    <section style="margin-bottom: 3rem;">
+      <div class="faq-item">
+        <h3>1. Qual é a classificação etária do evento?</h3>
+        <p style="color: var(--text-muted);">A classificação etária é de 16 anos. Menores de 16 anos apenas poderão entrar acompanhados pelos pais ou responsáveis legais.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>2. Como recebo o meu ingresso após a compra?</h3>
+        <p style="color: var(--text-muted);">O ingresso é digital e será enviado para o seu e-mail logo após a confirmação do pagamento. Basta apresentar o código QR no ecrã do telemóvel na entrada.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>3. Haverá estacionamento no local?</h3>
+        <p style="color: var(--text-muted);">O festival conta com um estacionamento limitado e pago à parte. Recomendamos a utilização de transportes públicos ou aplicações de mobilidade.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>4. O evento possui acessibilidade para pessoas com deficiência (PCD)?</h3>
+        <p style="color: var(--text-muted);">Sim, todo o espaço do The Warehouse District é acessível, contando com rampas, casas de banho adaptadas e áreas reservadas próximas dos palcos.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>5. Posso transferir o meu ingresso para outra pessoa?</h3>
+        <p style="color: var(--text-muted);">Sim, a transferência do nome do titular do ingresso pode ser realizada através da plataforma oficial de vendas até 48 horas antes do início do festival.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>6. O festival é coberto? O que acontece em caso de chuva?</h3>
+        <p style="color: var(--text-muted);">O festival é parcialmente coberto. O evento acontecerá normalmente mesmo em caso de chuva, exceto em situações de tempestades extremas.</p>
+      </div>
+    </section>
+
+    <!-- Formulário de Contato Visual -->
+    <section class="card" style="max-width: 600px; margin: 0 auto;">
+      <h2 style="font-family: var(--font-title); font-size: 2.2rem; color: var(--silver-accent); margin-bottom: 1rem;">Ainda com dúvidas? Fale Connosco</h2>
+      <form onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+        <div class="form-group">
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" placeholder="O seu nome" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="seu.email@exemplo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" rows="4" placeholder="Escreva a sua mensagem aqui..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn" style="width: 100%;">Enviar Mensagem</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 PTQFA FESTIVAL. Todos os direitos reservados.</p>
+    <p>Desenvolvido por Integrante 1 & Integrante 2</p>
+  </footer>
+
+</body>
+</html>
